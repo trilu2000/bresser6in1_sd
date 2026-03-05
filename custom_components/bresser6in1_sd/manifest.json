@@ -1,0 +1,11 @@
+{
+  "domain": "bresser6in1_sd",
+  "name": "Bresser6in1 SIGNALduino",
+  "version": "1.0",
+  "documentation": "https://github.com/trilu2000/bresser6in1_sd",
+  "requirements": ["pyserial>=3.5"],
+  "codeowners": ["@trilu2000"],
+  "platforms": ["sensor", "binary_sensor"],
+  "config_flow": true,
+  "iot_class": "local_push"
+}
