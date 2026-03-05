@@ -1,6 +1,6 @@
 # Bresser 6-in-1 SIGNALduino / CUL v3 Integration
 
-Custom Home Assistant integration for reading **Bresser 6-in-1 Weather Station** sensors via a **SIGNALduino** or **CUL v3** receiver.
+Custom Home Assistant integration for reading **Bresser 6-in-1 Weather Station** sensors via a **SIGNALduino** (tested with a CUL v3) receiver.
 
 ---
 
@@ -32,8 +32,8 @@ Custom Home Assistant integration for reading **Bresser 6-in-1 Weather Station**
 
 This integration supports:
 
-1. **SIGNALduino** (any compatible firmware)  
-2. **CUL v3** with firmware:
+1. **SIGNALduino** (with v3.35 dev firmware)  
+2. tested with a **CUL v3** with following firmware:
 
 ```
 SIGNALduino_culV3CC1101_onlyFsk_335dev20220521.hex
