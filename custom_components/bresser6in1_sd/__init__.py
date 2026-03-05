@@ -197,7 +197,7 @@ async def _read_loop(ser, hass: HomeAssistant, entry, coordinator):
                 _LOGGER.info("New Bresser6in1 sensor discovered: %s", sensor_id)
 
                 # Integration neu laden → Entities werden erzeugt
-                await hass.config_entries.async_reload(entry.entry_id)
+                hass.config_entries.async_reload(entry.entry_id)
 
                 continue
                 
