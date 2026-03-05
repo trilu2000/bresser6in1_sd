@@ -1,0 +1,5 @@
+{
+  "name": "Bresser6in1 SIGNALduino",
+  "content_in_root": false,
+  "domains": ["bresser6in1_sd"]
+}
